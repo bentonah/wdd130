@@ -1,11 +1,11 @@
-@import url('https://fonts.google.com/specimen/Indie+Flower?category=Handwriting&query=indie');
-@import url('https://fonts.google.com/specimen/Hi+Melody?category=Handwriting&query=melody');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hi+Melody&display=swap');
  
 :root {
-    --primary-color: [#bcd8c1]
-    --secondary-color: [#726da8]
-    --accent1-color: [#2c6e49]
-    --accent2-color: [#496f5d]
+    --primary-color: #bcd8c1;
+    --secondary-color: #726da8;
+    --accent1-color: #2c6e49;
+    --accent2-color: #496f5d;
 
     --heading-font: 'Indie Flower', handwriting;
     --paragraph-font: 'Hi Melody', handwriting;
@@ -19,18 +19,18 @@
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
-    padding: 20px
+    padding: 20px;
  }
 
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(#2c6e49)
+    color: var(#2c6e49);
  }
 
 header {
     padding: 20px;
-    background-color: var(#bcd8c1)
+    background-color: var(#bcd8c1);
  }
 
 p {padding: 25px;
@@ -50,10 +50,10 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-    color: var(#40e0d0)
+    color: var(#40e0d0);
 }
 
 nav a:hover {
     color: var(#add8e6);
-    background-color: var(#87cefa)
+    background-color: var(#87cefa);
 }
