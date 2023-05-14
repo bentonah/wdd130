@@ -3,7 +3,7 @@
 :root {
     --primary-color: #000;
     --secondary-color: gold;
-    --accent1-color: #31925b;
+    --accent1-color: #38f88b;
     --accent2-color: #496f5d;
 
     --heading-font: 'Indie Flower', handwriting;
@@ -77,7 +77,7 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: var(--secondary-color);
+    color: var(--nav-link-color);
 }
 article {
     position: absolute;
