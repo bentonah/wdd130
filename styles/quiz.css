@@ -15,7 +15,7 @@ body {
 
 header {
     margin: 0 auto;
-    width: 650px;
+    width: 700px;
 }
 
 h1 {
@@ -97,6 +97,7 @@ footer {
     border-top: 1px solid #000;
     font-size: 0.8em;
     color: #4e4141;
+    padding: 0.5rem;
 }
 
 .quiz {
