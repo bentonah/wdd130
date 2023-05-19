@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <title>WDD 130 | Basic CSS/HTML Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Benton Hanson | Basic HTML/CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <div class="quiz item1">
+                <label for=fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="quiz item2">
+                    <label for="q1">1. What does HTML stand for?</label>
+                    <select id="q1" name="q1">
+                        <option value="" selected disabled>Choose One...</option>
+                        <option value="hypertextmachlang">Hypertext Machine Language</option>
+                        <option value="hypertextlinkmarklang">Hypertext Links Markup Language</option>
+                        <option value="hypertextmarklang">Hypertext Markup Language</option>
+                        <option value="highmachlang">Hightext Machine Language</option>
+                        <option value="hyperlinktranmachlang">Hyperlink Translating Machine Language</option>
+                    </select>
+                </div>
+                <div class="quiz item3">
+                    <label for="q2">2. How many HTML heading tags are there?</label>
+                    <input type="number" id="q2" name="q2">
+                </div>
+                <div class="quiz item5">
+                    <label for="q3">3. What is the purpose of the &lt;div&gt; tag in HTML?</label>
+                    <input type="text" id="q3" name="q3">
+                </div>
+                <div class="quiz item4">
+                    <label for="q4">4. Write out the base requirements for the &lt;head&gt; section in HTML.</label>
+                    <textarea id="q4" name="q4" rows="6"></textarea>
+                </div>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>©️2023 | Basic HTML/CSS Quiz | Benton Hanson</p>
+    </footer>
+</body>
+</html>
