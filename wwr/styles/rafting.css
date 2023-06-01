@@ -21,6 +21,11 @@ header, main, footer, .hero img {
 body {
     padding: 20px;
 }
+body {
+    background-color: var(--nav-background-color);
+    padding: 0;
+    margin: 0;
+}
 h1 {
     font-family: var(--heading-font);
     color: #000;
@@ -119,11 +124,17 @@ footer {
 .adventure {
     border: 1px solid #000;
 }
-.advimg {
+.advimg img {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-start;
+    width: 100%;
+}
+.advimg figcaption {
+    font-size: 1.5rem;
+    font-family: var(--paragraph-font);
+    color: var(--nav-link-color)
 }
 figure {
     flex: 20%;
@@ -152,7 +163,7 @@ header nav a {
 .contact {
     position: absolute;
     align-items: center;
-    top: 280px;
+    top: 253px;
 }
 .where {
     background: #778899;
