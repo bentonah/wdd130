@@ -36,7 +36,7 @@ header {
 p {
     display: flex;
     align-items: center;
-    color: var(--accent2-color);
+    color: var(--nav-link-color);
     font-family: var(--paragraph-font);
 }
 h1 {
@@ -49,6 +49,20 @@ h1 {
     width: 100%;
     margin-top: 2rem;
     margin-bottom: 2.25rem;
+}
+h5 {
+    display: flex;
+    justify-content: center;
+    font-family: var(--heading-font);
+    color: var(--nav-hover-link-color);
+    background-color: var(--accent1-color);
+    font-size: 4.25rem;
+    font-weight: 900;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    border-top: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
 }
 .booknow img {
     background-color: var(--secondary-color);
