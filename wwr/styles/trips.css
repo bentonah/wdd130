@@ -44,7 +44,7 @@ h1 {
     justify-content: center;
     font-family: var(--heading-font);
     color: var(--primary-color);
-    background-color: var(--accent2-color);
+    background-color: white;
     font-size: 3rem;
     width: 100%;
     margin-top: 2rem;
@@ -55,7 +55,12 @@ h1 {
     width: 100%;
     height: auto;
 }
-.booknow h1 {
+.adventure img {
+    width: 100%;
+    height: auto;
+    background-color: var(--nav-hover-background-color);
+}
+.booknow h1, .adventure h1 {
     position: absolute;
     top: 500px;
     opacity: .7;
@@ -81,7 +86,7 @@ h2 {
     justify-content: center;
     font-family: var(--heading-font);
     color: var(--nav-link-color);
-    font-size: 2em;
+    font-size: 2rem;
     text-decoration: underline;
 }
 h3 {
@@ -92,19 +97,55 @@ h3 {
     font-size: 2em;
     text-decoration: underline;
 }
-.trip img {
+h4 {
+    display: flex;
+    align-items: center;
+    font-family: var(--heading-font);
+    color: var(--nav-link-color);
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.river2 figcaption {
+    padding-bottom: 1rem;
+}
+.trips img, .equip img {
     width: 275px;
     height: auto;
+}
+.fun img {
+    width: 750px;
+    height: auto;
+    padding-top: 20px;
 }
 .longtrips {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     align-items: center;
 }
+.fun figcaption {
+    font-size: 2rem;
+    font-family: var(--heading-font);
+    font-weight: 900;
+    color: var(--nav-link-color);
+}
+.fun {
+    display: grid;
+    align-items: center;
+}
+.rental {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    align-items: center;  
+}
 .shorttrips {
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
+}
+.sale {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;   
 }
 figure {
     display: block;
