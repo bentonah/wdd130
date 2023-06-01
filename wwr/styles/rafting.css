@@ -174,10 +174,18 @@ header nav a {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+.who figcaption {
+    font-size: 1.08rem;
+}
 .images {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    justify-content: flex-start;
+}
+figure img {
+    width: 185px;
+    height: auto;
     justify-content: flex-start;
 }
 .fform {
